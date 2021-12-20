@@ -22,10 +22,12 @@ body {
   h1 {
     font-family: $font_title;
     text-transform: uppercase;
-    color: $color_title_orange;
     font-size: 30px;
     line-height: 30px;
     margin-top: 10px;
+    -webkit-background-clip: text;
+    background-image: url('https://www.urban-comics.com/wp-content/uploads/2014/11/flashrenaissance2.jpg');
+    color: transparent;
   }
 
   h2 {
@@ -68,6 +70,10 @@ body {
 
   h1 {
     text-align: center;
+  }
+
+  .about_home_title {
+    color: $color_orange;
   }
 
   .about_home_text {
