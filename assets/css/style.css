@@ -134,3 +134,89 @@ body {
   margin: 30px;
   text-decoration: none;
 }
+
+/* --------  SPEAKERS ---------- */
+.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.speakers h2 {
+  text-align: center;
+  color: #575757;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.speakers hr {
+  text-align: center;
+  width: 25px;
+  margin-bottom: 15px;
+  color: #ec5242;
+  background-color: #ec5242;
+  height: 2px;
+  border: none;
+}
+
+.speakers hr.gray {
+  text-align: center;
+  width: 25px;
+  margin-bottom: 15px;
+  color: #d3d3d3;
+  background-color: #d3d3d3;
+  height: 1px;
+  border: none;
+}
+
+.speakers .speakers_item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.speakers .speakers_item div {
+  padding-bottom: 10px;
+}
+
+.speakers .speakers_list {
+  padding: 20px;
+}
+
+.speakers .speakers_item_speaker_name {
+  font-weight: bold;
+}
+
+.speakers .speakers_item_speaker_title {
+  color: #ec5242;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.speakers .speakers_item_cursus {
+  font-size: 12px;
+}
+
+.speakers .speakers_item_photo {
+  background-image: url("../images/damier.png");
+  background-repeat: no-repeat;
+  background-size: 45% 40%;
+  padding: 18px 10px 20px 10px;
+}
+
+.speakers .load_more_speakers {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speakers .load_more_speakers span {
+  color: #ec5242;
+  font-size: 16px;
+  padding-left: 15px;
+}
