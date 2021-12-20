@@ -413,3 +413,154 @@ footer {
     }
   }
 }
+
+/* --------  DESKTOP VIEW ---------- */
+
+@media screen and (min-width: 768px) {
+  .header_nav_list,
+  .header > div,
+  .see_more_text {
+    display: inherit;
+  }
+
+  .header > nav > div {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .header_nav_list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+    li {
+      margin: 10px;
+    }
+  }
+
+  a {
+    color: #272a31;
+    text-decoration: none;
+
+    &:hover {
+      color: #ec5242;
+      text-decoration: none;
+    }
+  }
+
+  .home {
+    background-image: url('../images/desktop_bg.png');
+    padding-left: 100px;
+    padding-right: 200px;
+
+    h1 {
+      font-size: 50px;
+      line-height: 57px;
+      width: 60%;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    .home_text {
+      width: 51%;
+      line-height: 27px;
+    }
+
+    .home_place {
+      padding-bottom: 120px;
+    }
+  }
+
+  .program {
+    height: auto;
+    padding-bottom: 20px;
+
+    .program_list {
+      display: flex;
+      flex-direction: row;
+      padding: 0 45px 0 45px;
+    }
+
+    .program_item {
+      flex-direction: column;
+    }
+
+    .program_item_icon {
+      width: 32%;
+    }
+
+    .program_item_title {
+      width: auto;
+    }
+
+    .program_item_text {
+      width: auto;
+      text-align: center;
+    }
+
+    hr {
+      margin-bottom: 40px;
+    }
+
+    .see_more {
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      margin: 60px;
+      display: inherit;
+    }
+
+    .join_summit {
+      display: none;
+    }
+
+    h2 {
+      margin-top: 25px;
+    }
+  }
+
+  .speakers {
+    padding: 0 50px;
+
+    .speakers_list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    .speakers_item {
+      display: flex;
+      width: 45%;
+      margin-bottom: 40px;
+    }
+
+    .load_more_speakers {
+      display: none;
+    }
+  }
+
+  footer {
+    .copyright {
+      justify-content: flex-start;
+      padding: 0 50px;
+
+      .footer_logo {
+        width: 300px;
+      }
+    }
+
+    .copyright_text {
+      margin-left: 50px;
+    }
+  }
+}
