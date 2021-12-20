@@ -1,1 +1,59 @@
 /* Science Festival Site */
+@import 'variables';
+@import 'font';
+
+* {
+  margin: 0;
+}
+
+body {
+  color: $color_body;
+  font-family: $font_body;
+}
+
+/* --------  HOME ---------- */
+
+.home {
+  padding: 50px 20px 50px 20px;
+  background-image: url('../images/mobile_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-family: $font_title;
+    text-transform: uppercase;
+    color: $color_title_orange;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    padding-top: 40px;
+    font-weight: 300;
+    color: $color_title_orange;
+    font-size: 20px;
+  }
+
+  .home_text {
+    padding: 15px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    background-color: #f6f6f6;
+    color: $color_title_black;
+  }
+
+  .home_date {
+    font-family: $font_title;
+    font-size: 21px;
+    color: $color_title_black;
+  }
+
+  .home_place {
+    color: $color_title_grey;
+    font-size: 14px;
+    padding-bottom: 60px;
+  }
+}
