@@ -57,3 +57,76 @@ body {
     padding-bottom: 60px;
   }
 }
+
+/* --------  PROGRAM ---------- */
+
+.program {
+  background-image: url('../images/program_bg.png');
+  background-repeat: repeat;
+  background-color: #272a32;
+  background-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    text-align: center;
+    color: $color_title_white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 40px;
+  }
+
+  hr {
+    text-align: center;
+    width: 30px;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: $color_orange;
+    color: $color_orange;
+    border: 0 solid $color_orange;
+  }
+
+  .program_item_icon {
+    width: 10%;
+  }
+
+  .program_item_title {
+    color: $color_title_orange;
+    width: 20%;
+  }
+
+  .program_item_text {
+    color: white;
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .program_item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b3e4582;
+
+    div {
+      margin: 10px;
+    }
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .see_more {
+    display: none;
+  }
+
+  .join_summit {
+    color: white;
+    background-color: $color_title_orange;
+    padding: 20px 30px;
+    margin: 30px;
+    text-decoration: none;
+  }
+}

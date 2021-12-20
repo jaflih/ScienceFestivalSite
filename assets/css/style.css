@@ -62,3 +62,75 @@ body {
   font-size: 14px;
   padding-bottom: 60px;
 }
+
+/* --------  PROGRAM ---------- */
+.program {
+  background-image: url("../images/program_bg.png");
+  background-repeat: repeat;
+  background-color: #272a32;
+  background-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.program hr {
+  text-align: center;
+  width: 30px;
+  margin-bottom: 15px;
+  height: 1px;
+  background-color: #ec5242;
+  color: #ec5242;
+  border: 0 solid #ec5242;
+}
+
+.program .program_item_icon {
+  width: 10%;
+}
+
+.program .program_item_title {
+  color: #ec5242;
+  width: 20%;
+}
+
+.program .program_item_text {
+  color: white;
+  font-size: 12px;
+  width: 50%;
+}
+
+.program .program_item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: #3b3e4582;
+}
+
+.program .program_item div {
+  margin: 10px;
+}
+
+.program .program_item img {
+  width: 90%;
+}
+
+.program .see_more {
+  display: none;
+}
+
+.program .join_summit {
+  color: white;
+  background-color: #ec5242;
+  padding: 20px 30px;
+  margin: 30px;
+  text-decoration: none;
+}
