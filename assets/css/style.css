@@ -265,7 +265,7 @@ body {
 
 .partner h2 {
   text-align: center;
-  color: #d3d3d3;
+  color: #fff;
   font-size: 16px;
   padding: 10px;
 }
@@ -326,6 +326,75 @@ body {
   width: 70%;
   border: 1px solid #d3d3d3;
   margin: 20px;
+}
+
+/* --------  Events ---------- */
+.events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.events h2 {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.events hr {
+  text-align: center;
+  width: 25px;
+  margin-bottom: 15px;
+  color: #ec5242;
+  background-color: #ec5242;
+  height: 2px;
+  border: none;
+}
+
+.events p {
+  font-size: 12px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.events .event_image {
+  width: 90%;
+  max-width: 90%;
+  max-height: 90%;
+  height: 90%;
+}
+
+.events .orange {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  background-color: #f45437c2;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events .event_container {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: white;
+}
+
+.events .date {
+  font-size: 25px;
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 /* --------  FOOTER ---------- */

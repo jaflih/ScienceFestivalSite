@@ -59,6 +59,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Designed by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Fond vector created par [freepik](https://fr.freepik.com/vecteurs/fond)
+- Fond vector created par [pressfoto](https://fr.freepik.com/photos/femme)
 
 ## 📝 License
 
