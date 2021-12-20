@@ -235,7 +235,8 @@ body {
   .commons p {
     font-size: 12px;
     text-align: center;
-    padding: 0 30px; }
+    padding: 0 30px;
+    line-height: 1.5; }
   .commons .commons_logo {
     width: 70%;
     border: 1px solid #d3d3d3;
@@ -340,12 +341,12 @@ footer .copyright {
 
   .home {
     background-image: url("../images/desktop_bg.png");
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 200px; }
     .home h1 {
       font-size: 50px;
       line-height: 57px;
-      width: 60%; }
+      width: 80%; }
     .home h2 {
       font-size: 30px; }
     .home .home_text {
@@ -395,12 +396,23 @@ footer .copyright {
     .speakers .load_more_speakers {
       display: none; }
 
+  .commons,
+  .events {
+    padding-left: 200px;
+    padding-right: 200px; }
+
+  .event_list {
+    display: flex; }
+
   footer .copyright {
     justify-content: flex-start;
     padding: 0 50px; }
     footer .copyright .footer_logo {
       width: 300px; }
   footer .copyright_text {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+
+  .commons .commons_logo {
+    max-width: 400px; } }
 
 /*# sourceMappingURL=style.css.map */

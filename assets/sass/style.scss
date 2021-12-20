@@ -317,6 +317,7 @@ body {
     font-size: 12px;
     text-align: center;
     padding: 0 30px;
+    line-height: 1.5;
   }
 
   .commons_logo {
@@ -459,13 +460,13 @@ footer {
 
   .home {
     background-image: url('../images/desktop_bg.png');
-    padding-left: 100px;
+    padding-left: 200px;
     padding-right: 200px;
 
     h1 {
       font-size: 50px;
       line-height: 57px;
-      width: 60%;
+      width: 80%;
     }
 
     h2 {
@@ -549,6 +550,16 @@ footer {
     }
   }
 
+  .commons,
+  .events {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .event_list {
+    display: flex;
+  }
+
   footer {
     .copyright {
       justify-content: flex-start;
@@ -562,5 +573,9 @@ footer {
     .copyright_text {
       margin-left: 50px;
     }
+  }
+
+  .commons .commons_logo {
+    max-width: 400px;
   }
 }
