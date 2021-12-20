@@ -170,10 +170,6 @@ body {
   .speakers_item {
     display: flex;
     margin-bottom: 20px;
-
-    div {
-      padding-bottom: 10px;
-    }
   }
 
   .speakers_list {
@@ -214,6 +210,58 @@ body {
       color: $color_orange;
       font-size: 16px;
       padding-left: 15px;
+    }
+  }
+}
+
+/* --------  PARTNER ---------- */
+.partner {
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  h2 {
+    text-align: center;
+    color: $color_grey;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  hr {
+    text-align: center;
+    border-color: $color_orange;
+    width: 25px;
+    margin-bottom: 15px;
+  }
+
+  .partner_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .partner_logo {
+    margin: 20px;
+  }
+}
+
+footer {
+  .copyright {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+
+    .copyright_text {
+      font-size: 12px;
+    }
+
+    .footer_logo {
+      width: 120px;
     }
   }
 }

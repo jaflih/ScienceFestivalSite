@@ -176,10 +176,6 @@ body {
   margin-bottom: 20px;
 }
 
-.speakers .speakers_item div {
-  padding-bottom: 10px;
-}
-
 .speakers .speakers_list {
   padding: 20px;
 }
@@ -219,4 +215,54 @@ body {
   color: #ec5242;
   font-size: 16px;
   padding-left: 15px;
+}
+
+/* --------  PARTNER ---------- */
+.partner {
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.partner h2 {
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.partner hr {
+  text-align: center;
+  border-color: #ec5242;
+  width: 25px;
+  margin-bottom: 15px;
+}
+
+.partner .partner_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.partner .partner_logo {
+  margin: 20px;
+}
+
+footer .copyright {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .copyright .copyright_text {
+  font-size: 12px;
+}
+
+footer .copyright .footer_logo {
+  width: 120px;
 }
