@@ -58,6 +58,43 @@ body {
   }
 }
 
+.about_home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../images/about_mobile_bg.png');
+  background-size: auto;
+  background-color: #f7f7f7;
+
+  h1 {
+    text-align: center;
+  }
+
+  .about_home_text {
+    padding: 15px;
+    border: 1px solid $color_grey;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #575757;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .home_email {
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;
+    padding: 0 30px;
+  }
+
+  .email {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
 /* --------  PROGRAM ---------- */
 
 .program {

@@ -28,7 +28,7 @@ body {
 .home h1 {
   font-family: "COCOGOOSE", sans-serif;
   text-transform: uppercase;
-  color: #ec5242;
+  color: #f9412b;
   font-size: 30px;
   line-height: 30px;
   margin-top: 10px;
@@ -37,7 +37,7 @@ body {
 .home h2 {
   padding-top: 40px;
   font-weight: 300;
-  color: #ec5242;
+  color: #f9412b;
   font-size: 20px;
 }
 
@@ -61,6 +61,43 @@ body {
   color: #7e7e7e;
   font-size: 14px;
   padding-bottom: 60px;
+}
+
+.about_home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/about_mobile_bg.png");
+  background-size: auto;
+  background-color: #f7f7f7;
+}
+
+.about_home h1 {
+  text-align: center;
+}
+
+.about_home .about_home_text {
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #575757;
+  background-color: #fff;
+  text-align: center;
+  line-height: 2;
+}
+
+.about_home .home_email {
+  text-align: center;
+  font-size: 12px;
+  line-height: 2;
+  padding: 0 30px;
+}
+
+.about_home .email {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* --------  PROGRAM ---------- */
@@ -97,7 +134,7 @@ body {
 }
 
 .program .program_item_title {
-  color: #ec5242;
+  color: #f9412b;
   width: 20%;
 }
 
@@ -129,7 +166,7 @@ body {
 
 .program .join_summit {
   color: white;
-  background-color: #ec5242;
+  background-color: #f9412b;
   padding: 20px 30px;
   margin: 30px;
   text-decoration: none;
