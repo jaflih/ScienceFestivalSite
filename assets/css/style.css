@@ -17,6 +17,10 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.hidden {
+  display: none;
+}
+
 /* --------  HOME ---------- */
 .home {
   padding: 50px 20px 50px 20px;
@@ -117,15 +121,11 @@ header nav {
   height: 100vh;
 }
 
-header .menu {
-  display: none;
-}
-
-header .hamburger {
+header .open_menu {
   margin: 20px;
 }
 
-header .hamburger img {
+header .open_menu img {
   width: 150%;
 }
 
@@ -499,7 +499,7 @@ footer .copyright .footer_logo {
     position: static;
   }
 
-  .header .hamburger {
+  .header .open_menu {
     display: none;
   }
 

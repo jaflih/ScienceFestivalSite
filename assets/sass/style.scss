@@ -11,6 +11,10 @@ body {
   font-family: $font_body;
 }
 
+.hidden {
+  display: none;
+}
+
 /* --------  HOME ---------- */
 
 .home {
@@ -111,11 +115,7 @@ header {
     height: 100vh;
   }
 
-  .menu {
-    display: none;
-  }
-
-  .hamburger {
+  .open_menu {
     margin: 20px;
 
     img {
@@ -500,7 +500,7 @@ footer {
     background-color: #fff;
     position: static;
 
-    .hamburger {
+    .open_menu {
       display: none;
     }
 
