@@ -502,6 +502,11 @@ footer {
     background-color: #fff;
     position: static;
 
+    &.header_white {
+      width: auto;
+      box-shadow: none;
+    }
+
     .open_menu,
     .homepage {
       display: none;
