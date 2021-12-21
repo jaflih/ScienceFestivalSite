@@ -32,7 +32,7 @@ body {
   line-height: 30px;
   margin-top: 10px;
   -webkit-background-clip: text;
-  background-image: url("https://www.urban-comics.com/wp-content/uploads/2014/11/flashrenaissance2.jpg");
+  background-image: url("../images/flash.jpg");
   color: transparent;
 }
 
@@ -104,6 +104,64 @@ body {
 .about_home .email {
   text-decoration: underline;
   font-weight: bold;
+}
+
+/* --------  HEADER  ----------- */
+header {
+  position: fixed;
+}
+
+header nav {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+header .menu {
+  display: none;
+}
+
+header .hamburger {
+  margin: 20px;
+}
+
+header .hamburger img {
+  width: 150%;
+}
+
+header .header_nav_list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+header .header_nav_list li {
+  margin: 20px;
+}
+
+header .header_nav_list li a {
+  text-decoration: none;
+  color: #575757;
+  font-family: "COCOGOOSE", sans-serif;
+  text-transform: uppercase;
+}
+
+header .header_nav_list li a:hover {
+  color: #ec5242;
+}
+
+header .close_menu {
+  text-align: right;
+  padding: 20px;
+}
+
+header .logo {
+  display: none;
 }
 
 /* --------  PROGRAM ---------- */
@@ -435,37 +493,69 @@ footer .copyright .footer_logo {
   .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin: 10px 100px;
+    background-color: #fff;
+    position: static;
   }
 
-  .logo {
-    width: 200px;
+  .header .hamburger {
+    display: none;
   }
 
-  .header_nav_list {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+  .header .menu {
+    display: inherit;
   }
 
-  .header_nav_list li {
-    margin: 10px;
+  .header .logo {
+    display: inherit;
+    background-color: #fff;
+    width: 150px;
   }
 
-  a {
+  .header .header_nav_list {
+    justify-content: flex-start;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+  }
+
+  .header .header_nav_list li {
+    margin: 0 22px;
+  }
+
+  .header .header_nav_list li a {
+    font-family: "Lato", sans-serif;
+    text-transform: inherit;
     color: #272a31;
     text-decoration: none;
   }
 
-  a:hover {
+  .header .header_nav_list li a:hover {
     color: #ec5242;
     text-decoration: none;
   }
 
+  .header .header_nav_list li.campagne {
+    margin-left: 60px;
+    border: 3px solid #ec5242;
+    padding: 10px 20px;
+  }
+
+  .header .header_nav_list li.campagne a {
+    color: #ec5242;
+  }
+
+  header nav {
+    background-color: #fff;
+    width: 60%;
+    height: auto;
+  }
+
   .home {
     background-image: url("../images/desktop_bg.png");
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .home h1 {
