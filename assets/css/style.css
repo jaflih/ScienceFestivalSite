@@ -499,7 +499,8 @@ footer .copyright .footer_logo {
     position: static;
   }
 
-  .header .open_menu {
+  .header .open_menu,
+  .header .homepage {
     display: none;
   }
 
