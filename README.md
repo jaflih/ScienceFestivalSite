@@ -45,6 +45,9 @@ Give a ⭐️ if you like this project!
 - Fond vector created par [freepik](https://fr.freepik.com/vecteurs/fond)
 - Fond vector created par [pressfoto](https://fr.freepik.com/photos/femme)
 
+- Random data [Faker](https://github.com/marak/Faker.js/)
+- Random picture [Random.me](https://randomuser.me/)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
