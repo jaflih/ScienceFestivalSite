@@ -115,6 +115,10 @@ header {
   position: fixed;
 }
 
+header .social {
+  display: none;
+}
+
 header nav {
   background-color: #fff;
   width: 100vw;
@@ -452,21 +456,28 @@ header .logo {
 }
 
 .events .event_container {
-  width: 90%;
   height: 90%;
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 20px 0 20px 0;
   color: white;
 }
 
 .events .date {
-  font-size: 25px;
+  font-size: 35px;
   font-family: "COCOGOOSE", sans-serif;
 }
 
+.events .description {
+  font-size: 20px;
+}
+
 /* --------  FOOTER ---------- */
+footer {
+  background-color: #fff;
+}
+
 footer .copyright {
   display: flex;
   margin: 20px;
@@ -495,12 +506,42 @@ footer .copyright .footer_logo {
   }
 
   .header {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 10px 100px;
     background-color: #fff;
     position: static;
+  }
+
+  .header .close_menu {
+    display: none;
+  }
+
+  .header i {
+    color: white;
+  }
+
+  .header .social {
+    background-color: #3e3e3e;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header .social ul {
+    color: #fff;
+    display: flex;
+    list-style: none;
+    font-size: small;
+    margin-right: 100px;
+  }
+
+  .header .social ul li {
+    margin: 10px 10px;
+  }
+
+  .header .social ul li a {
+    color: #fff;
+    text-decoration: none;
   }
 
   .header.header_white {
@@ -523,36 +564,45 @@ footer .copyright .footer_logo {
     width: 150px;
   }
 
-  .header .header_nav_list {
+  .header .submenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 100px;
+    background-color: #fff;
+    position: static;
+  }
+
+  .header .submenu .header_nav_list {
     justify-content: flex-start;
     flex-direction: row;
     width: auto;
     height: auto;
   }
 
-  .header .header_nav_list li {
+  .header .submenu .header_nav_list li {
     margin: 0 22px;
   }
 
-  .header .header_nav_list li a {
+  .header .submenu .header_nav_list li a {
     font-family: "Lato", sans-serif;
     text-transform: inherit;
     color: #272a31;
     text-decoration: none;
   }
 
-  .header .header_nav_list li a:hover {
+  .header .submenu .header_nav_list li a:hover {
     color: #ec5242;
     text-decoration: none;
   }
 
-  .header .header_nav_list li.campagne {
+  .header .submenu .header_nav_list li.campagne {
     margin-left: 60px;
     border: 3px solid #ec5242;
     padding: 10px 20px;
   }
 
-  .header .header_nav_list li.campagne a {
+  .header .submenu .header_nav_list li.campagne a {
     color: #ec5242;
   }
 
@@ -661,17 +711,35 @@ footer .copyright .footer_logo {
     padding-right: 200px;
   }
 
+  .commons .event_container,
+  .events .event_container {
+    width: 90%;
+  }
+
   .event_list {
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  footer {
+    background-color: #414246;
+    color: white;
   }
 
   footer .copyright {
     justify-content: flex-start;
     padding: 0 50px;
+    margin: 0;
   }
 
   footer .copyright .footer_logo {
     width: 300px;
+  }
+
+  footer .copyright img {
+    background-color: #fff;
+    margin-bottom: 10px;
   }
 
   footer .copyright_text {
