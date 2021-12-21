@@ -5,8 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Science Festival Site</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="social">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div class="submenu">
+        <div>
+          <a href="index.html"><img src="assets/images/logo_blanc.png" class="logo" alt="Link to return to the homepage" /></a>
+        </div>
+        <div class="open_menu">
+          <img src="assets/images/menu.png" alt="Open the menu" />
+        </div>
+        <nav class="menu hidden">
+          <div class="close_menu"><img src="assets/images/cancel.png" alt="Close the menu" /></div>
+          <ul class="header_nav_list">
+            <li><a class="homepage hidden" href="index.html">Homepage</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li class="campagne"><a href="#">Campagne</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- HOME -->
+    <section class="home">
+      <h2>"Hello! Sharing world!"</h2>
+      <h1>Science Festival Spring 2022</h1>
+      <p class="home_text">
+        A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking
+        place in May, in France.
+      </p>
+      <p class="home_date">2022.05.10(MON) ~ 19(THU)</p>
+      <p class="home_place">@ Lugdunum-museum Roman theaters, Lyon France</p>
+    </section>
+    <!-- HOME END -->
+    <!-- PROGRAM -->
+    <section class="program">
+      <h2>Main Program</h2>
+      <hr />
+      <div class="program_list">
+        <div class="program_item">
+          <div class="program_item_icon">
+            <img src="assets/images/program/program_icon_01.png" alt="icon for lecture program" />
+          </div>
+          <div class="program_item_title">Lecture</div>
+          <div class="program_item_text">Listen to the speakers from various contries about the messeges of sharing and opening.</div>
+        </div>
+        <div class="program_item">
+          <div class="program_item_icon">
+            <img src="assets/images/program/program_icon_02.png" alt="icon for experiences program" />
+          </div>
+          <div class="program_item_title">Experiences</div>
+          <div class="program_item_text">Appreciate various creations, experiences, organized from Lugdunum-museum Roman theaters.</div>
+        </div>
+        <div class="program_item">
+          <div class="program_item_icon">
+            <img src="assets/images/program/program_icon_03.png" alt="icon for forum program" />
+          </div>
+          <div class="program_item_title">Forum</div>
+          <div class="program_item_text">Have the time to share your thoughts and opinions with experts for each topis.</div>
+        </div>
+        <div class="program_item">
+          <div class="program_item_icon">
+            <img src="assets/images/program/program_icon_04.png" alt="icon for workshop program" />
+          </div>
+          <div class="program_item_title">Workshop</div>
+          <div class="program_item_text">Try creating your own work using open source license rather than just watching.</div>
+        </div>
+        <div class="program_item">
+          <div class="program_item_icon">
+            <img src="assets/images/program/program_icon_05.png" alt="icon for networking program" />
+          </div>
+          <div class="program_item_title">Networking</div>
+          <div class="program_item_text">Get opportunities to network with people around the world, alse after the summit.</div>
+        </div>
+      </div>
+
+      <a href="#" class="join_summit">Join CC Global Summit 2015</a>
+      <a href="#" class="see_more">SEE THE WHOLE PROGRAM</a>
+    </section>
+    <!-- PROGRAM END -->
+
+    <!-- SPEAKERS -->
+    <section class="speakers">
+      <h2>Featured Speakers</h2>
+      <hr />
+      <div class="speakers_list"></div>
+      <div class="load_more_speakers">MORE <span>▿</span></div>
+    </section>
+    <!-- SPEAKERS END -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="partner">
+        <h2>Partner</h2>
+        <hr />
+        <div class="partner_list">
+          <img src="assets/images/partner/mozilla.png" class="partner_logo" alt="mozilla logo" />
+          <img src="assets/images/partner/google.png" class="partner_logo" alt="google logo" />
+          <img src="assets/images/partner/naver.png" class="partner_logo" alt="naver logo" />
+          <img src="assets/images/partner/daum.png" class="partner_logo" alt="daumkakao logo" />
+          <img src="assets/images/partner/airbnb.png" class="partner_logo" alt="airbnb logo" />
+        </div>
+      </div>
+      <div class="copyright">
+        <div>
+          <img src="assets/images/logo_blanc.png" class="footer_logo" alt="Science Festival logo" />
+        </div>
+        <div class="copyright_text">
+          2021 Lugdunum-museum Roman theaters <br />
+          Some Right Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+    <script src="https://kit.fontawesome.com/3c7f5856f6.js" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/Marak/faker.js/master/examples/browser/js/faker.js"></script>
+    <script src="assets/js/festival.js"></script>
+    <script src="assets/js/speakers.js"></script>
   </body>
 </html>
