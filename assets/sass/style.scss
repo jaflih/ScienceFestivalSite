@@ -123,6 +123,7 @@ header {
     width: 100%;
     background-color: white;
     box-shadow: 0 1px 6px #aaa;
+    z-index: 999;
   }
 
   .header_nav_list {
@@ -264,6 +265,7 @@ header {
     text-align: center;
     width: 25px;
     margin-bottom: 15px;
+    margin-top: 15px;
     color: $color_grey;
     background-color: $color_grey;
     height: 1px;
@@ -558,8 +560,8 @@ footer {
 
   header nav {
     background-color: #fff;
-    width: 60%;
     height: auto;
+    width: auto;
   }
 
   .home {
@@ -623,6 +625,7 @@ footer {
       border-bottom: 1px solid #fff;
       margin: 60px;
       display: inherit;
+      text-decoration: none;
     }
 
     .join_summit {

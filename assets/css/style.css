@@ -129,6 +129,7 @@ header.header_white {
   width: 100%;
   background-color: white;
   box-shadow: 0 1px 6px #aaa;
+  z-index: 999;
 }
 
 header .header_nav_list {
@@ -268,6 +269,7 @@ header .logo {
   text-align: center;
   width: 25px;
   margin-bottom: 15px;
+  margin-top: 15px;
   color: #d3d3d3;
   background-color: #d3d3d3;
   height: 1px;
@@ -556,8 +558,8 @@ footer .copyright .footer_logo {
 
   header nav {
     background-color: #fff;
-    width: 60%;
     height: auto;
+    width: auto;
   }
 
   .home {
@@ -622,6 +624,7 @@ footer .copyright .footer_logo {
     border-bottom: 1px solid #fff;
     margin: 60px;
     display: inherit;
+    text-decoration: none;
   }
 
   .program .join_summit {
