@@ -117,10 +117,12 @@ header {
 
   .open_menu {
     margin: 20px;
+  }
 
-    img {
-      width: 150%;
-    }
+  &.header_white {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 6px #aaa;
   }
 
   .header_nav_list {
